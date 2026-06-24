@@ -14,11 +14,17 @@ Taskist parses Markdown task lists (`- [ ]`) from your notes and turns them into
 - File-level `taskist-ignore` support to exclude files from task indexing
 - Hierarchical tasks with parent-child relationships
 
-### Task Editor
-- Type `!` to set task priority
-- Natural language due date parsing (e.g., "next Friday")
-- Type `#` to add tags
-- Type `~` to choose save location
+
+### Task Navigator (Side Panel, command palette *Taskist: Open task navigator view*)
+A tree view for quick navigation:
+- **Inbox**: a dedicated catch-all file for quick task capture
+- **Vault tree**: browse tasks by your folder structure
+- **Tag tree**: hierarchical tag browser with nested tag support
+
+![task navigator tree](./images/task-nav-tree.png)
+
+
+![mobile task navigator tree](./images/mobile-task-nav.jpg)
 
 
 ### Task List View
@@ -34,13 +40,14 @@ A dedicated task panel with powerful organization:
 
 ![task list view](./images/task-list.png)
 
-### Task Navigator (Side Panel)
-A tree view for quick navigation:
-- **Inbox**: a dedicated catch-all file for quick task capture
-- **Vault tree**: browse tasks by your folder structure
-- **Tag tree**: hierarchical tag browser with nested tag support
 
-![task navigator tree](./images/task-nav-tree.png)
+![mobile task list view](./images/mobile-task-list.jpg)
+
+### Task Editor
+- Type `!` to set task priority
+- Natural language due date parsing (e.g., "next Friday")
+- Type `#` to add tags
+- Type `~` to choose save location
 
 ### Quick Add Modal
 Capture tasks instantly via command palette:
@@ -51,3 +58,6 @@ Capture tasks instantly via command palette:
 - Tasks update instantly when you edit Markdown files
 - Handles file renames, moves, and deletions automatically
 - Persists task cache across sessions for fast startup
+
+### I18n Support
+Multi-language support for English and Chinese
