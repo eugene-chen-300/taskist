@@ -1,11 +1,11 @@
 {
-	"id": "taskist",
-	"name": "Taskist",
-	"version": "1.0.0",
-	"minAppVersion": "1.10.0",
-	"description": "A task management tool that turns your Markdown notes into a powerful task system.",
-	"author": "eugene chen",
-	"authorUrl": "https://github.com/eugene-chen-300",
-	"fundingUrl": "",
-	"isDesktopOnly": false
+  "id": "taskist",
+  "name": "Taskist",
+  "version": "0.8.0",
+  "minAppVersion": "1.10.1",
+  "description": "A task management tool that turns your Markdown notes into a powerful task system.",
+  "author": "eugene chen",
+  "authorUrl": "https://github.com/eugene-chen-300",
+  "fundingUrl": "",
+  "isDesktopOnly": false
 }
